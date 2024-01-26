@@ -4,16 +4,22 @@
 // Challenge 1
 // Use a for statement to log to the console all even numbers between 25 and 75.
 
-
-
+function isEven(num) {
+  return num % 2 === 0;
+}
+for (i = 25; i < 75; i++) {
+  if (isEven(i)) {
+    console.log(i)
+}
+}
 // Challenge 2
 // Use a for statement to log to the console a complete sentence stating the weather using the Array below:
-var weather_options = ["sunny", "snowy", "freezing", "partly cloudy", "drizzly"]
+//var weather_options = ["sunny", "snowy", "freezing", "partly cloudy", "drizzly"]
 
 
 // Challenge 3
 // Use a for statement to log to the console only the words that are exactly 3 characters in length
-var words = ["car", "bike", "bus", "van", "scooter", "truck", "rv"]
+//var words = ["car", "bike", "bus", "van", "scooter", "truck", "rv"]
 
 // 📹 Record yourself live-coding and talking through any ONE of the challenges. 
   // The recording doesn't have to be the first time you are solving the problem. 
